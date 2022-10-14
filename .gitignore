@@ -2,7 +2,16 @@
 __pycache__/
 *.py[cod]
 *$py.class
-
+# Testing Files
+18-2-2_Pandas_Refresh.ipynb
+K-Mean.ipynb
+crypto_clustering_starter_code.ipynb
+elbow_applied.ipynb
+elbow_curve_intro.ipynb
+hierarchical_clustering.ipynb
+iris.csv
+k_mean_trial_error.ipynb
+pca.ipynb
 # C extensions
 *.so
 
@@ -25,6 +34,8 @@ share/python-wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+#.DS_Store
+.DS_Store
 MANIFEST
 
 # PyInstaller

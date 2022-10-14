@@ -19,7 +19,7 @@
 - To preprocess the data, I used Pandas to read in the data, filter the dataframe, drop null values, and drop unncessary columns. 
 - This preprocessing resulted in the following dataframe:
 
-![preprocess_data]()
+![preprocess_data](readme_images/preprocess_data.png)
 
 - From there, I used `get_dummies()` to encode the text data and then scaled the data to prepare for Principal Component Analysis
 
@@ -29,7 +29,7 @@
 
 - Applying PCA to this dataset reduced the dimensions down to three and resulted in this dataframe that could be then used to find the K value:
 
-![pca_dataframe]()
+![pca_dataframe](readme_images/pca_dataframe.png)
 
 ### Clustering
 
@@ -37,11 +37,11 @@
 
 - This process resulted in a K value of 4:
 
-![elbow_curve]()
+![elbow_curve](readme_images/elbow_curve.png)
 
 - After determining the appropriate K value, I could then run the K-Means model, and create a dataframe that includes cryptocurrency data, the princple components, and the classes resulting from the K-Means model:
 
-![clustered_df]()
+![clustered_df](readme_images/clustered_df.png)
 
 ### Visualizing
 
@@ -49,15 +49,15 @@
 
 - 3-D scatter plot using `plotly.express`
 
-![plotly_scatter]()
+![plotly_scatter](readme_images/plotly_scatter.png)
 
 - A sortable table using `hvplot`:
 
-![hvplot_table]()
+![hvplot_table](readme_images/hvplot_table.png)
 
 - A scatter plot using `hvplot`
 
-![hvplot_scatter]()
+![hvplot_scatter](readme_images/hvplot_scatter.png)
 
 ## Summary
 
